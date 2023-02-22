@@ -1,17 +1,21 @@
 #include "main.h"
 /**
- * _islower - main function
+ * print_alphabet_x10 - prints alphabet 10 times
  *
- * @c: character to compare
- *
- * Return: 1 if true, 0 if false
+ * Return: always 0;
  *
  */
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-	if (c >= 'a' && c <= 'z')
+	char i;
+	char h;
+
+	for (h = 0; h <= 9; h++)
 	{
-		return (1);
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
 	}
-	return (0);
 }
