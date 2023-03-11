@@ -7,9 +7,9 @@
  * @argument_values: the array of arguments
  * Return: 0
  */
-int main(int argument_count,char *argument_values[])
-{ 
+int main(int argument_count, char *argument_values[])
+{
 	if (argument_count >= 1)
-		printf("%s\n",argument_values[0]);
+		printf("%s\n", argument_values[0]);
 	return (0);
 }
