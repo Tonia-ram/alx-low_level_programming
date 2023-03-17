@@ -54,7 +54,7 @@ char *big_multiply(char *s1, char *s2)
 		if (!_isdigit(s1[l1]))
 		{
 			free(r);
-			print("Error\n"), exit(98);
+			printf("Error\n"), exit(98);
 		}
 		a = s1[l1] - '0';
 		c = 0;
