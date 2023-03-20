@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- * Description: Header file that defines a function-like macro 
+ * Descr: Header file that defines a function-like macro
  * SUM(x, y), that computes
  * @x: sum of the numbers
  * @y: the sum of macro
