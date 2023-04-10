@@ -24,7 +24,7 @@ void print_binary(unsigned long int n)
 	/* Output binary digits using else if statements */
 	while (bit_point >= 0)
 	{
-		if ((n >> bit_point) & bit_op)
+		if (((n >> bit_point) & bit_op) != 0)
 		{
 			_putchar('1');
 		}
