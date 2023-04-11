@@ -20,6 +20,7 @@ void print_binary(unsigned long int n)
 	{
 		bit_point++;
 	}
+
 	bit_point--;
 	/* Output binary digits using else if statements */
 	while (bit_point >= 0)

@@ -1,12 +1,12 @@
-#C - Bit manipulation
+# C - Bit manipulation
 
-#Environment:
+# Environment:
 -Language: C
 -OS: Ubuntu 20.04 LTS
 -Compiler: gcc
 -Style guidelines: Betty style
 
-#Description of files:
+# Description of files:
 
 0. A function that converts a binary number to an unsigned int
 1. A function that prints the binary representation of a number
