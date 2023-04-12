@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary representation of a number
- * @n: the number to be printed in binary
- */
+* print_binary - prints the binary representation of a number
+* @n: the number to be printed in binary
+*/
 
 void print_binary(unsigned long int n)
 {
@@ -20,7 +20,6 @@ void print_binary(unsigned long int n)
 	{
 		bit_point++;
 	}
-
 	bit_point--;
 	/* Output binary digits using else if statements */
 	while (bit_point >= 0)
