@@ -9,7 +9,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 		{
-			int file_desc; /* file descriptor */
+			int file_desc; /* descriptor of file */
 			ssize_t num_read, num_written;
 			char *file_buffer;
 
@@ -17,21 +17,18 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			{
 				return (0);
 			}
-			/* Open the file */
 			file_desc = open(filename, O_RDONLY);
 
 			if (file_desc < 0)
 			{
 				return (0);
 			}
-			/* Allocate buffer */
 			file_buffer = malloc(sizeof(char) * letters);
 
 			if (!filename)
 			{
 				return (0);
 			}
-			/* Read the file */
 			num_read = read(file_desc, file_buffer, letters);
 
 			if (num_read < 0)
