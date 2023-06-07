@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns a natural square root of
+ * _sqrt_recursion - returns the natural square root of a number
  * @n: int number
- * Return: -1 if no natural square root, else return natural
- * square root
+ * Return: If n does not have a natural square root, the function
+ * should return -1
  */
 
 int _sqrt_recursion(int n)
@@ -13,9 +13,9 @@ int _sqrt_recursion(int n)
 
 /**
  * halp - aide function to solve _sqrt_recursion
- * @c: number to determine if square root
+ * @c: number to determine if it is a square root
  * @i: incrementer to compare against `c`
- * Return: the natural square root, or -1 if none found
+ * Return: the natural square root, or -1 if none is found
  */
 
 int halp(int c, int i)
