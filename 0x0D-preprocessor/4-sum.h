@@ -3,8 +3,8 @@
 
 /**
  * main - Entry point
- * Descr: Header file that defines a function-like macro
- * SUM(x, y), that computes
+ * Description: Header file that defines a function-like macro
+ * SUM(x, y), that computes the sum of the numbers x and y.
  * @x: sum of the numbers
  * @y: the sum of macro
  */
