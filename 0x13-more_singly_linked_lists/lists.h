@@ -38,5 +38,6 @@ size_t free_listint_safe(listint_t **h);
 int is_node_visited(const listint_t *node);
 void mark_node_visited(const listint_t *node);
 size_t looped_listint_len(const listint_t *head);
+size_t print_listint_safe_with_loop_handling(const listint_t *head);
 
 #endif
